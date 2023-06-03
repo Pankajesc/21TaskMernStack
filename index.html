@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #d6e446;
+        }
+        #main{
+            display: flex;
+            top: 0;
+            gap: 40px;
+        }
+
+        #left-nav{
+            margin: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .box{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        .black{
+            display: block;
+            height: 40px;
+            width: 20px;
+            background-color: black;
+        }
+        .box a{
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        #right{
+            color: #6d026a;
+        }
+        #right div{
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="left-nav">
+            <div class="box"><a href="#">Home page</a><div class="black"></div></div>
+            <div class="box"><a href="#">Musings</a><div class="black"></div></div>
+            <div class="box"><a href="#">My town</a><div class="black"></div></div>
+            <div class="box"><a href="#">Links</a><div class="black"></div></div>
+        </div>
+        <div id="right">
+            <h1 class="heading">My first styled page</h1>
+            <div>Welcome to my styled page!</div>
+            <div>It lacks images but atleast it has style. And it has links, even if they don't go anywhere...</div>
+            <div>There should be more here, but I don't know what yet</div>
+            <hr>
+            <div>Made 5th April 2004</div>
+            <div>by myself.</div>
+        </div>
+    </div>
+</body>
+</html>
